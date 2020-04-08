@@ -10,6 +10,11 @@ export default{
 			console.log(rsp.info);
 			alert(rsp.info);
 		},
+		*camera({_},{call,put}){
+			const rsp=yield call(signService.camera);
+			console.log(rsp.info);
+			alert(rsp.info);
+		},
 		*signGo({_},{call,put}){
 			yield call(signService.signGo);
 		},
