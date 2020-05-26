@@ -67,7 +67,7 @@ class Sign extends Component {
 	constructor() {
 		super();
 		this.state = {
-			endpoint: "http://www.giseden.xyz:3001",
+			endpoint: "http://www.giseden.xyz:3000",
 			response: 0,
 			temperature: 0.0,
 			modal1: false,
